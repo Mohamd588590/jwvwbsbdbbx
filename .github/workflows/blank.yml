@@ -1,0 +1,43 @@
+name: CI
+
+on: Ipush, workflow.dispatch]
+
+jobs:
+
+build:
+
+runs-on: windows-lataut
+
+steps:
+
+name: Download
+
+run: Invoke WabRequest https://bin.equinox.io/c/4VnDxA7ialb/agrok-stable.
+
+windows-und66.zip -OutFile ngroksip
+
+nane: Extract
+
+run: Expand Archive ngrok.sip name: Auth
+
+NORGE AUTHTOKEN: $11 secrete. NORGE AUTH TOKEN }} nane: Enable TS
+
+run: Set ItenProperty
+
+Path HELM: Systen CurrentControlSet Control Terminal
+
+Server-name"EDeny TEConnections Value 0
+
+run: Enable-NetFirewall Rule -Displaydroup Remote Desktop
+
+run: Bet-ItemProperty Path HELM: \System CurrentControlSet\Control Terminal
+
+Server WinStations RDF-Top" -nama UserAuthentication Value 1
+
+run: Bet-LucalUser -Bane TerminatorTech' -Fassword (ConvertTo-SecureString -
+
+AnFlain Text P@sword!" Forcel
+
+nano: Create Tunnel
+
+run:\ngrok ngrok.exe tcp 3389
